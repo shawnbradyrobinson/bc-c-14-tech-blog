@@ -2,7 +2,7 @@ const router = require('express').Router();
 const { Op } = require('sequelize');
 
 router.get('/', async (req, res) => {
-    res.send("hi");
+    res.render("blogs_list");
 })
 
 module.exports = router; 
